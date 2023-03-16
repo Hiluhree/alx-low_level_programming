@@ -46,4 +46,4 @@ To run the Betty linter just with command betty <filename>:
   - You can now type betty <filename> to run the Betty linter!
 
 ## Tasks
-+ Task 1: [Preprocessor]()
++ Task 1: [Preprocessor](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x00-hello_world/0-preprocessor)
