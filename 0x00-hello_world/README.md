@@ -68,7 +68,7 @@ To run the Betty linter just with command betty <filename>:
 	+ Use the function puts
 	+ You are not allowed to use printf
 	+ Your program should end with the value 0
-+ Task 5: [Hello, printf](): A C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.</br>
++ Task 5: [Hello, printf](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x00-hello_world/5-printf.c): A C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.</br>
 
 	+ Use the function printf
 	+ You are not allowed to use the function puts
