@@ -80,8 +80,13 @@ To run the Betty linter just with command betty <filename>:
 	+ Warnings are allowed
 	+ Your program should return 0
 	+ You might have to install the package libc6-dev-i386 on your Linux to test the -m32 gcc option
-+ Task 7: [Intel](): A script that generates the assembly code (Intel syntax) of a C code and save it in an output file.</br>
++ Task 7: [Intel](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x00-hello_world/100-intel): A script that generates the assembly code (Intel syntax) of a C code and save it in an output file.</br>
 
 	+ The C file name will be saved in the variable $CFILE.
 	+ The output file should be named the same as the C file, but with the extension .s instead of .c.
 		- Example: if the C file is main.c, the output file should be main.s
++Task 8: [UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity](): A C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.</br>
+
+	+ You are not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts
+	+ Your program should return 1
+	+ Your program should compile without any warnings when using the -Wall gcc option
