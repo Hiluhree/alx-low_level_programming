@@ -46,4 +46,12 @@ To run the Betty linter just with command betty <filename>:
   - You can now type betty <filename> to run the Betty linter!
 
 ## Tasks
-+ Task 1: [Preprocessor](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x00-hello_world/0-preprocessor)
++ Task 0: [Preprocessor](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x00-hello_world/0-preprocessor): A script that runs a C file through the preprocessor and save the result into another file.</br>
+
+	+ The C file name will be saved in the variable $CFILE
+	+ The output should be saved in the file c
++ Task 1: [Compiler](): A script that compiles a C file but does not link.</br>
+
+	+ The C file name will be saved in the variable $CFILE
+	+ The output file should be named the same as the C file, but with the extension .o instead of .c.
+		- Example: if the C file is main.c, the output file should be main.o
