@@ -63,3 +63,8 @@ To run the Betty linter just with command betty <filename>:
 + Task 3: [Name](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x00-hello_world/3-name): A script that compiles a C file and creates an executable named cisfun.</br>
 
 	+ The C file name will be saved in the variable $CFILE
++ Task 4: [Hello, puts](): A C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.</br>
+
+	+ Use the function puts
+	+ You are not allowed to use printf
+	+ Your program should end with the value 0
