@@ -72,8 +72,13 @@
 	+ You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
 	+ You can only use putchar twice in your code
 	+ All your code should be in the main function
-+ Task 7: [Smile in the mirror](): A Write a program that prints the lowercase alphabet in reverse, followed by a new line.
++ Task 7: [Smile in the mirror](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x01-variables_if_else_while/7-print_tebahpla.c): A Write a program that prints the lowercase alphabet in reverse, followed by a new line.
 
 	+ You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
 	+ All your code should be in the main function
 	+ You can only use putchar twice in your code
++ Task 8: [Hexadecimal](): A Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
+
+	+ You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+	+ All your code should be in the main function
+	+ You can only use putchar three times in your code
