@@ -47,8 +47,13 @@
 			- if the last digit of n is 0: the string and is 0
 			- if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0
 		- followed by a new line
-+ Task 2: [I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](): A program that prints the alphabet in lowercase, followed by a new line.
++ Task 2: [I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x01-variables_if_else_while/2-print_alphabet.c): A program that prints the alphabet in lowercase, followed by a new line.
 
 	+ You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
 	+ All your code should be in the main function
 	+ You can only use putchar twice in your code
++ Task 3: [alphABET](): A program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+
+	+ You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+	+ All your code should be in the main function
+	+ You can only use putchar three times in your code
