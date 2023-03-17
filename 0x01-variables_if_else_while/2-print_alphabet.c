@@ -15,5 +15,5 @@ int main(void)
 	} while (ch <= 'z');
 
 	putchar('\n');
-	return 0;
+	return (0);
 }
