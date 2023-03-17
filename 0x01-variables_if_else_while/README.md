@@ -34,10 +34,9 @@
 			- if the number is 0: is zero
 			- if the number is less than 0: is negative
 		- followed by a new line
-</br>
-+ Task 2: [The last digit](): This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n.</br>
++ Task 2: [The last digit](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x01-variables_if_else_while/1-last_digit.c): This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n.</br>
 
-	+ You can find the source code here
+	+ You can find the source code [here](https://github.com/holbertonschool/0x01.c/blob/master/1-last_digit_c)
 	+ The variable n will store a different value every time you run this program
 	+ You don’t have to understand what rand, srand, and RAND_MAX do. Please do not touch this code
 	+ The output of the program should be:
