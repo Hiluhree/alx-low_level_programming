@@ -101,7 +101,7 @@
 	+ You can only use putchar five times maximum in your code
 	+ You are not allowed to use any variable of type char
 	+ All your code should be in the main function
-+ Task 11: [The success combination in business is: Do what you do better... and: do more of what you do...](): A Write a program that prints all possible different combinations of three digits.
++ Task 11: [The success combination in business is: Do what you do better... and: do more of what you do...](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x01-variables_if_else_while/101-print_comb4.c): A Write a program that prints all possible different combinations of three digits.
 
 	+ Numbers must be separated by ,, followed by a space
 	+ The three digits must be different
@@ -110,5 +110,17 @@
 	+ Numbers should be printed in ascending order, with three digits
 	+ You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
 	+ You can only use putchar six times maximum in your code
+	+ You are not allowed to use any variable of type char
+	+ All your code should be in the main function
++ Task 12: [Software is eating the World](): A program that prints all possible combinations of two two-digit numbers.
+
+	+ The numbers should range from 0 to 99
+	+ The two numbers should be separated by a space
+	+ All numbers should be printed with two digits. 1 should be printed as 01
+	+ The combination of numbers must be separated by comma, followed by a space
+	+ The combinations of numbers should be printed in ascending order
+	+ 00 01 and 01 00 are considered as the same combination of the numbers 0 and 1
+	+ You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+	+ You can only use putchar eight times maximum in your code
 	+ You are not allowed to use any variable of type char
 	+ All your code should be in the main function
