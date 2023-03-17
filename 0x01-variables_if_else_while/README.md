@@ -77,8 +77,16 @@
 	+ You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
 	+ All your code should be in the main function
 	+ You can only use putchar twice in your code
-+ Task 8: [Hexadecimal](): A Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
++ Task 8: [Hexadecimal](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x01-variables_if_else_while/8-print_base16.c): A Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
 
 	+ You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
 	+ All your code should be in the main function
 	+ You can only use putchar three times in your code
++ Task 9: [Patience, persistence and perspiration make an unbeatable combination for success](): A program that prints all possible combinations of single-digit numbers.
+
+	+ Numbers must be separated by ,, followed by a space
+	+ Numbers should be printed in ascending order
+	+ You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+	+ All your code should be in the main function
+	+ You can only use putchar four times maximum in your code
+	+ You are not allowed to use any variable of type char
