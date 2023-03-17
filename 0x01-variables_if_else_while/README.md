@@ -23,7 +23,7 @@
 + Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl</br>
 
 ## Tasks
-+ Tasks 1: [Positive anything is better than negative nothing](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x01-variables_if_else_while): This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.</br>
++ Tasks 1: [Positive anything is better than negative nothing](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c): This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.</br>
 
 	+ You can find the source code [here](https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c)
 	+ The variable n will store a different value every time you will run this program
