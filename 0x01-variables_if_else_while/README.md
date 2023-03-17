@@ -57,9 +57,12 @@
 	+ You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
 	+ All your code should be in the main function
 	+ You can only use putchar three times in your code
-+ Task 4: [When I was having that alphabet soup, I never thought that it would pay off](): A program that prints the alphabet in lowercase, followed by a new line.
++ Task 4: [When I was having that alphabet soup, I never thought that it would pay off](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x01-variables_if_else_while/4-print_alphabt.c): A program that prints the alphabet in lowercase, followed by a new line.
 
 	+ Print all the letters except q and e
 	+ You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
 	+ All your code should be in the main function
 	+ You can only use putchar twice in your code
++ Task 5: [Numbers](): A program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+
+	+ All your code should be in the main function
