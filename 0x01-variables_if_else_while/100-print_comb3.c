@@ -15,8 +15,8 @@ int main(void)
 		{
 			if (b > a)
 			{
-				putchar(a);
-				putchar(b);
+				putchar('0' + a);
+				putchar('0' + b);
 				if (a != 8 || b != 9)
 				{
 					putchar(',');
