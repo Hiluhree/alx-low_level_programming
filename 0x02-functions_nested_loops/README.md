@@ -21,11 +21,13 @@
 
 	+ Prototype: void print_alphabet_x10(void);
 	+ You can only use putchar twice in your code
-+ Task 3: [islower](): A Write a function that checks for lowercase character.</br>
++ Task 3: [islower](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x02-functions_nested_loops/3-islower.c): A Write a function that checks for lowercase character.</br>
 
 	+ Prototype: int islower(int c);
 	+ Returns 1 if c is lowercase
 	+ Returns 0 otherwise
 		- FYI: The standard library provides a similar function: islower. Run man islower to learn more.
-
-
++ Task 4: [isalpha](): A function that checks for alphabetic character.</br>
+	+ Prototype: int isalpha(int c);
+	+ Returns 1 if c is a letter, lowercase or uppercase
+	+ Returns 0 otherwise
