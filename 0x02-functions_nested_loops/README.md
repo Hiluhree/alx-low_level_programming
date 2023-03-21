@@ -17,7 +17,15 @@
 
 	+ Prototype: void print_alphabet(void);
 	+ You can only use putchar twice in your code
-+ Task 2: [10 x alphabet](): A function that prints 10 times the alphabet, in lowercase, followed by a new line.</br>
++ Task 2: [10 x alphabet](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x02-functions_nested_loops/2-print_alphabet_x10.c): A function that prints 10 times the alphabet, in lowercase, followed by a new line.</br>
 
 	+ Prototype: void print_alphabet_x10(void);
 	+ You can only use putchar twice in your code
++ Task 3: [islower](): A Write a function that checks for lowercase character.</br>
+
+	+ Prototype: int islower(int c);
+	+ Returns 1 if c is lowercase
+	+ Returns 0 otherwise
+		- FYI: The standard library provides a similar function: islower. Run man islower to learn more.
+
+
