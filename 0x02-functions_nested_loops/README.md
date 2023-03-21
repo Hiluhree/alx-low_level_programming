@@ -10,6 +10,6 @@
 
 ## Tasks
 
-+ Task 0: [putchar](): A program that prints putchar, followed by a new line.</br>
++ Task 0: [putchar](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x02-functions_nested_loops/0-putchar.c): A program that prints putchar, followed by a new line.</br>
 
 	+ The program should return 0
