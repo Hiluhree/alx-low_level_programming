@@ -27,7 +27,13 @@
 	+ Returns 1 if c is lowercase
 	+ Returns 0 otherwise
 		- FYI: The standard library provides a similar function: islower. Run man islower to learn more.
-+ Task 4: [isalpha](): A function that checks for alphabetic character.</br>
++ Task 4: [isalpha](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x02-functions_nested_loops/4-isalpha.c): A function that checks for alphabetic character.</br>
 	+ Prototype: int isalpha(int c);
 	+ Returns 1 if c is a letter, lowercase or uppercase
 	+ Returns 0 otherwise
++ Task 5: [Sign](): A unction that prints the sign of a number.</br>
+
+	+ Prototype: int print_sign(int n);
+	+ Returns 1 and prints + if n is greater than zero
+	+ Returns 0 and prints 0 if n is zero
+	+ Returns -1 and prints - if n is less than zero
