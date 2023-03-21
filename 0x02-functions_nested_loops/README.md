@@ -45,7 +45,11 @@
 
 	+ Prototype: int print_last_digit(int);
 	+ Returns the value of the last digit
-+ Task 8: [I'm federal agent Jack Bauer, and today is the longest day of my life](): A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.</br>
++ Task 8: [I'm federal agent Jack Bauer, and today is the longest day of my life](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x02-functions_nested_loops/8-24_hours.c): A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.</br>
 
 	+ Prototype: void jack_bauer(void);
 	+ You can listen to this soundtrack while coding :)
++ Task 9: [Learn your times table](): A function that prints the 9 times table, starting with 0.</br>
+
+	+ Prototype: void times_table(void);
+	+ Format: see example
