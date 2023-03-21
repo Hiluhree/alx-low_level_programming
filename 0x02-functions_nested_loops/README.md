@@ -49,7 +49,10 @@
 
 	+ Prototype: void jack_bauer(void);
 	+ You can listen to this soundtrack while coding :)
-+ Task 9: [Learn your times table](): A function that prints the 9 times table, starting with 0.</br>
++ Task 9: [Learn your times table](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x02-functions_nested_loops/9-times_table.c): A function that prints the 9 times table, starting with 0.</br>
 
 	+ Prototype: void times_table(void);
 	+ Format: see example
++ Task 10: [a + b](): A function that adds two integers and returns the result.
+
+	+ Prototype: int add(int, int);
