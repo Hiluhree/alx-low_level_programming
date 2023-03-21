@@ -39,5 +39,9 @@
 	+ Returns -1 and prints - if n is less than zero
 + Task 6: [There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you](): A Write a function that computes the absolute value of an integer.</br>
 
-	+ Prototype: int _abs(int);
+	+ Prototype: int abs(int);
 		- FYI: The standard library provides a similar function: abs. Run man abs to learn more.
++ Task 7: [There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](): A function that prints the last digit of a number.</br>
+
+	+ Prototype: int print_last_digit(int);
+	+ Returns the value of the last digit
