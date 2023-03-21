@@ -56,7 +56,7 @@
 + Task 10: [a + b](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x02-functions_nested_loops/10-add.c): A function that adds two integers and returns the result.</br>
 
 	+ Prototype: int add(int, int);
-+ Task 11: [98 Battery Street, the OG](): A function that prints all natural numbers from n to 98, followed by a new line.</br>
++ Task 11: [98 Battery Street, the OG](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x02-functions_nested_loops/11-print_to_98.c): A function that prints all natural numbers from n to 98, followed by a new line.</br>
 
 	+ Prototype: void print_to_98(int n);
 	+ Numbers must be separated by a comma, followed by a space
@@ -64,3 +64,7 @@
 	+ The first printed number should be the number passed to your function
 	+ The last printed number should be 98
 	+ You are allowed to use the standard library
++ Task 12: [The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself](): A Write a function that prints the n times table, starting with 0.</br>
+
+	+ Prototype: void print_times_table(int n);
+	+ If n is greater than 15 or less than 0 the function should not print anything
