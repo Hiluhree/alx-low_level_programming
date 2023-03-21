@@ -13,3 +13,7 @@
 + Task 0: [putchar](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x02-functions_nested_loops/0-putchar.c): A program that prints putchar, followed by a new line.</br>
 
 	+ The program should return 0
++ Task 1: [I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](): A function that prints the alphabet, in lowercase, followed by a new line.</br>
+
+	+ Prototype: void print_alphabet(void);
+	+ You can only use putchar twice in your code
