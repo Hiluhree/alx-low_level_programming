@@ -23,7 +23,12 @@
 + Task 2: [Collaboration is multiplication](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/2-mul.c): A function that multiplies two integers.</br>
 
 	+ Prototype: int mul(int a, int b);
-+ Task 3: [The numbers speak for themselves](): A function that prints the numbers, from 0 to 9, followed by a new line.
++ Task 3: [The numbers speak for themselves](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/3-print_numbers.c): A function that prints the numbers, from 0 to 9, followed by a new line.
 
 	+ Prototype: void print_numbers(void);
+	+ You can only use putchar twice in your code
++ Task 4: [I believe in numbers and signs](): A function that prints the numbers, from 0 to 9, followed by a new line.</br>
+
+	+ Prototype: void print_most_numbers(void);
+	+ Do not print 2 and 4
 	+ You can only use putchar twice in your code
