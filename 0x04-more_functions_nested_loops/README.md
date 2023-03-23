@@ -32,7 +32,14 @@
 	+ Prototype: void print_most_numbers(void);
 	+ Do not print 2 and 4
 	+ You can only use putchar twice in your code
-+ Task 5: [Numbers constitute the only universal language](): A function that prints 10 times the numbers, from 0 to 14, followed by a new line.
++ Task 5: [Numbers constitute the only universal language](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/5-more_numbers.c): A function that prints 10 times the numbers, from 0 to 14, followed by a new line.
 
 	+ Prototype: void more_numbers(void);
 	+ You can only use putchar three times in your code
++ Task 6: [The shortest distance between two points is a straight line](): A Write a function that draws a straight line in the terminal.
+
+	+ Prototype: void print_line(int n);
+	+ You can only use putchar function to print
+	+ Where n is the number of times the character _ should be printed
+	+ The line should end with a \n
+	+ If n is 0 or less, the function should only print \n
