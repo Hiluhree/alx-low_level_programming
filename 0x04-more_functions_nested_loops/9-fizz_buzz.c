@@ -8,32 +8,27 @@
  */
 int main(void)
 {
-	int i = 1;
+	int i;
 
-	while (i <= 100)
+	for (i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("%s", "Fizz");
+			printf("FizzBuzz ");
+		}
+		else if (i % 3 == 0)
+		{
+			printf("Fizz ");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("%s", "Buzz");
-		}
-		else if (i % 3 == 0 && i % 5 == 0)
-		{
-			printf("%s", "FizzBuzz");
+			printf("Buzz")
 		}
 		else
 		{
-			printf("%d", i);
+			printf("%d ", i);
 		}
-		if (i != 100)
-		{
-			printf(" ");
-		}
-		i++;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
