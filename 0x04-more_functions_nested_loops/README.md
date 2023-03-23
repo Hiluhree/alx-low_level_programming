@@ -27,8 +27,12 @@
 
 	+ Prototype: void print_numbers(void);
 	+ You can only use putchar twice in your code
-+ Task 4: [I believe in numbers and signs](): A function that prints the numbers, from 0 to 9, followed by a new line.</br>
++ Task 4: [I believe in numbers and signs](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/4-print_most_numbers.c): A function that prints the numbers, from 0 to 9, followed by a new line.</br>
 
 	+ Prototype: void print_most_numbers(void);
 	+ Do not print 2 and 4
 	+ You can only use putchar twice in your code
++ Task 5: [Numbers constitute the only universal language](): A function that prints 10 times the numbers, from 0 to 14, followed by a new line.
+
+	+ Prototype: void more_numbers(void);
+	+ You can only use putchar three times in your code
