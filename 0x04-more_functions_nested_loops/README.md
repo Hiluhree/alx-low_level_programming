@@ -57,15 +57,28 @@
 	+ Where size is the size of the square
 	+ If size is 0 or less, the function should print only a new line
 	+ Use the character # to print the square
-+ Task 9: [Fizz-Buzz](): The “Fizz-Buzz test” is an interview question designed to help filter out the 99.5% of programming job candidates who can’t seem to program their way out of a wet paper bag.</br>
++ Task 9: [Fizz-Buzz](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/9-fizz_buzz.c): The “Fizz-Buzz test” is an interview question designed to help filter out the 99.5% of programming job candidates who can’t seem to program their way out of a wet paper bag.</br>
 A program that prints the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
 
 	+ Each number or word should be separated by a space
 	+ You are allowed to use the standard library
-+ Task 10: [Triangles](): A function that prints a triangle, followed by a new line.
++ Task 10: [Triangles](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/10-print_triangle.c): A function that prints a triangle, followed by a new line.
 
 	+ Prototype: void print_triangle(int size);
 	+ You can only use putchar function to print
 	+ Where size is the size of the triangle
 	+ If size is 0 or less, the function should print only a new line
 	+ Use the character # to print the triangle
++ Task 11: [The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/100-prime_factor.c): The prime factors of 1231952 are 2, 2, 2, 2, 37 and 2081.
+
+	+ Write a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
+
+		- You are allowed to use the standard library
+		- Your program will be compiled with this command: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
++ Task 12: [ Numbers have life; they're not just symbols on paper](): A function that prints an integer.
+
+	+ Prototype: void print_number(int n);
+	+ You can only use putchar function to print
+	+ You are not allowed to use long
+	+ You are not allowed to use arrays or pointers
+	+ You are not allowed to hard-code special values
