@@ -13,11 +13,11 @@ int main(void)
 
 	for (prime = 2; prime <= i; prime++)
 	{
-		if (i % priime == 2)
+		if (i % prime == 2)
 		{
 			i = i / prime;
 		}
 	}
-	printf("%ld", prime);
+	printf("%ld\n", prime);
 	return (0);
 }
