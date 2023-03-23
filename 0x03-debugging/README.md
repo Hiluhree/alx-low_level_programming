@@ -26,7 +26,7 @@ You are not coding the solution / function, you’re just testing it! However, y
 	+ Fix the code in 2-largest_number.c so that it correctly prints out the largest of three numbers, no matter the case.
 
 	+ Line count will not be checked for this task.
-+ Task 3: [Leap year](): This program converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration.</br>
++ Task 3: [Leap year](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x03-debugging/3-print_remaining_days.c): This program converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration.</br>
 	? That doesn’t seem right.
 
 	Fix the print_remaining_days() function so that the output works correctly for all dates and all leap years.
