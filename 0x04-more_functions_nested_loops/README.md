@@ -43,10 +43,17 @@
 	+ Where n is the number of times the character _ should be printed
 	+ The line should end with a \n
 	+ If n is 0 or less, the function should only print \n
-+ Task 7: [I feel like I am diagonally parked in a parallel universe mandatory](): A function that draws a diagonal line on the terminal.
++ Task 7: [I feel like I am diagonally parked in a parallel universe mandatory](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/7-print_diagonal.c): A function that draws a diagonal line on the terminal.
 
 	+ Prototype: void print_diagonal(int n);
 	+ You can only use putchar function to print
 	+ Where n is the number of times the character \ should be printed
 	+ The diagonal should end with a \n
 	+ If n is 0 or less, the function should only print a \n
++ Task 8: [You are so much sunshine in every square inch](): A function that prints a square, followed by a new line.
+
+	+ Prototype: void print_square(int size);
+	+ You can only use putchar function to print
+	+ Where size is the size of the square
+	+ If size is 0 or less, the function should print only a new line
+	+ Use the character # to print the square
