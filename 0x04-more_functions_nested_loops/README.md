@@ -8,9 +8,15 @@
 + [C - Header Files](https://www.tutorialspoint.com/cprogramming/c_header_files.htm) (*stop before the “Once-Only Headers” paragraph*)
 
 ### Tasks
-+ Task 1: [isupper](): A function that checks for uppercase character.</br>
++ Task 1: [isupper](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/0-isupper.c): A function that checks for uppercase character.</br>
 
 	+ Prototype: int isupper(int c);
 	+ Returns 1 if c is uppercase
 	+ Returns 0 otherwise
 		- FYI: The standard library provides a similar function: isupper. Run man isupper to learn more.
++ Task 1: [isdigit](): A function that checks for a digit (0 through 9).</br>
+
+	+ Prototype: int isdigit(int c);
+	+ Returns 1 if c is a digit
+	+ Returns 0 otherwise
+		- FYI: The standard library provides a similar function: isdigit. Run man isdigit to learn more.
