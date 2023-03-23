@@ -11,7 +11,7 @@ int main(void)
 	long int i = 612852475143;
 	long int prime;
 
-	for (prime = 2; prime <= i; prime++)
+	for (prime = 2; prime < i; prime++)
 	{
 		if (i % prime == 2)
 		{
