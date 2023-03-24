@@ -13,7 +13,7 @@ int main(void)
 
 	for (prime = 2; prime < i; prime++)
 	{
-		if (i % prime == 2)
+		if (i % prime == 0)
 		{
 			i = i / prime;
 		}
