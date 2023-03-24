@@ -75,7 +75,7 @@ A program that prints the numbers from 1 to 100, followed by a new line. But for
 
 		- You are allowed to use the standard library
 		- Your program will be compiled with this command: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
-+ Task 12: [ Numbers have life; they're not just symbols on paper](): A function that prints an integer.
++ Task 12: [ Numbers have life; they're not just symbols on paper](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/101-print_number.c): A function that prints an integer.
 
 	+ Prototype: void print_number(int n);
 	+ You can only use putchar function to print
