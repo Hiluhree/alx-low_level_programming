@@ -27,9 +27,22 @@ FYI: The standard library provides a similar function: puts. Run man puts to lea
 	+ Prototype: void puts_half(char str);
 	+ The function should print the second half of the string
 	+ If the number of characters is odd, the function should print the last n characters of the string, where n = (length_of_the_string - 1) / 2
-+ Task 8: [Arrays are not pointers](): A function that prints n elements of an array of integers, followed by a new line.
++ Task 8: [Arrays are not pointers](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/8-print_array.c): A function that prints n elements of an array of integers, followed by a new line.
 	+ Prototype: void print_array(int a, int n);
 	+ where n is the number of elements of the array to be printed
 	+ Numbers must be separated by comma, followed by a space
 	+ The numbers should be displayed in the same order as they are stored in the array
 	+ You are allowed to use printf
++ Task 9: [strcpy](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/9-strcpy.c): A a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+	+ Return value: the pointer to dest
+FYI: The standard library provides a similar function: strcpy. Run man strcpy to learn more.
++ Task 10: [Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers](): A function that convert a string to an integer.
+	+ Prototype: int atoi(char s);
+	+ The number in the string can be preceded by an infinite number of characters
+	+ You need to take into account all the - and + signs before the number
+	+ If there are no numbers in the string, the function must return 0
+	+ You are not allowed to use long
+	+ You are not allowed to declare new variables of “type” array
+	+ You are not allowed to hard-code special values
+	+ We will use the -fsanitize=signed-integer-overflow gcc flag to compile your code.
+FYI: The standard library provides a similar function: atoi. Run man atoi to learn more.
