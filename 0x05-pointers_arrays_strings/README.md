@@ -15,7 +15,9 @@
 	+ Prototype: int strlen(char s);
 FYI: The standard library provides a similar function: strlen. Run man strlen to learn more.
 + Task 3: [I do not fear computers. I fear the lack of them](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/3-puts.c): A function that prints a string, followed by a new line, to stdout.
-	+ Prototype: void _puts(char *str);
+	+ Prototype: void puts(char str);
 FYI: The standard library provides a similar function: puts. Run man puts to learn more.
-+ Task 4: [I can only go one way. I've not got a reverse gear](): A function that prints a string, in reverse, followed by a new line.
-	+ Prototype: void print_rev(char *s);
++ Task 4: [I can only go one way. I've not got a reverse gear](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/4-print_rev.c): A function that prints a string, in reverse, followed by a new line.
+	+ Prototype: void print_rev(char s);
++ Task 5: [A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes](): A function that reverses a string.
+	+ Prototype: void rev_string(char *s);
