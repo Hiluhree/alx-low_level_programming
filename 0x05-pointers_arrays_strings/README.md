@@ -4,7 +4,10 @@
 + [C - Pointers](https://www.tutorialspoint.com/cprogramming/c_pointers.htm)
 + [C - Strings](https://www.tutorialspoint.com/cprogramming/c_strings.htm)
 + [Memory Layout](https://aticleworld.com/memory-layout-of-c-program/)
-
+### Test Files
++ [Test-files](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings/test_files)
+### Helper Files
++ [Helper-file](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings/helper_file)
 ### Tasks
 + Task 0 : [98 Battery st.](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/0-reset_to_98.c): A function that takes a pointer to an int as parameter and updates the value it points to to 98.</br>
 	+ Prototype: void reset_to_98(int n);
