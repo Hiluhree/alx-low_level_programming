@@ -46,8 +46,7 @@ FYI: The standard library provides a similar function: strcpy. Run man strcpy to
 	+ You are not allowed to hard-code special values
 	+ We will use the -fsanitize=signed-integer-overflow gcc flag to compile your code.
 FYI: The standard library provides a similar function: atoi. Run man atoi to learn more.
-+ Task 11: [Don't hate the hacker, hate the code](): A program that generates random valid passwords for the program 101-crackme.
-
++ Task 11: [Don't hate the hacker, hate the code](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/100-atoi.c): A program that generates random valid passwords for the program [101-crackme](https://github.com/holbertonschool/0x04.c).
 	+ You are allowed to use the standard library
 	+ You don’t have to pass the betty-style tests (you still need to pass the betty-doc tests)
 	+ man srand, rand, time
