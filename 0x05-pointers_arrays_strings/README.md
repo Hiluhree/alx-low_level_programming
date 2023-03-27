@@ -21,5 +21,9 @@ FYI: The standard library provides a similar function: puts. Run man puts to lea
 	+ Prototype: void print_rev(char s);
 + Task 5: [A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/5-rev_string.c): A function that reverses a string.
 	+ Prototype: void rev_string(char s);
-+ Task 6 : [Half the lies they tell about me aren't true](): A function that prints every other character of a string, starting with the first character, followed by a new line.
++ Task 6 : [Half the lies they tell about me aren't true](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/6-puts2.c): A function that prints every other character of a string, starting with the first character, followed by a new line.
 	+ Prototype: void puts2(char str);
++ Task 7: [Winning is only half of it. Having fun is the other half](): A function that prints half of a string, followed by a new line.
+	+ Prototype: void puts_half(char str);
+	+ The function should print the second half of the string
+	+ If the number of characters is odd, the function should print the last n characters of the string, where n = (length_of_the_string - 1) / 2
