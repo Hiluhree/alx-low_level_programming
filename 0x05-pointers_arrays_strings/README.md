@@ -7,4 +7,6 @@
 
 ### Tasks
 + Task 0 : [98 Battery st.](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/0-reset_to_98.c): A function that takes a pointer to an int as parameter and updates the value it points to to 98.</br>
-	+ Prototype: void reset_to_98(int *n);
+	+ Prototype: void reset_to_98(int n);
++ Task 1: [Don't swap horses in crossing a stream](): A unction that swaps the values of two integers.
+	+ Prototype: void swap_int(int *a, int *b);
