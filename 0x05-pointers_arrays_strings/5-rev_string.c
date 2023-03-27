@@ -16,7 +16,7 @@ void rev_string(char *s)
 	j = len - 1;
 	i = 0;
 
-	while (i > j)
+	while (j > i)
 	{
 		ver1 = s[i];
 		ver2 = s[j];
