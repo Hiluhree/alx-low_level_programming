@@ -8,3 +8,4 @@
 [0x03. C - Debugging](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x03-debugging)</br>
 [0x04. C - More functions, more nested loops](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)</br>
 [0x05. C - Pointers, arrays and strings](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)</br>
+[0x06. C - More pointers, arrays and strings]()</br>
