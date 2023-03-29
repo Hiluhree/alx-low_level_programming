@@ -33,7 +33,7 @@
 
 
 ## Task
-+ Task 0: [strcat](): A function that concatenates two strings.
++ Task 0: [strcat](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/0-strcat.c): A function that concatenates two strings.
 
 	+ Prototype: char strcat(char *dest, char *src);
 	+ This function appends the src string to the dest string, overwriting the terminating null byte (\0) at the end of dest, and then adds a terminating null byte
