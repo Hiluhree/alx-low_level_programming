@@ -9,20 +9,17 @@
 char *leet(char *s)
 {
 	int i, j;
-	char c[] = "aAeEoOtTlL";
-	char c1[] = "4433007711";
+	char c[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
-	j = 0;
 	i = 0;
-	while (s[i] != '\0')
+	while (s[i])
 	{
-		while (c[j] != '\0')
+		for (j = 0; j <= 7; j++)
 		{
-			if (s[i] == c[j])
+			if (s[i] == c[j] || s[i] - 32 == c[j])
 			{
-				s[i] = c1[j];
+				s[i] = j + '0';
 			}
-			j++
 		}
 		i++;
 	}
