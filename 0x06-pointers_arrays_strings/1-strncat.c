@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * _strncat - a function that concatenates two strings using at most
@@ -19,8 +19,8 @@ char *_strncat(char *dest, char *src, int n)
 	while (src[j] != '\0' && j < n)
 	{
 		dest[i] = src[j];
-		j++;
 		i++;
+		j++;
 	}
 	dest[i] = '\0';
 	return (dest);
