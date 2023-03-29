@@ -1,7 +1,8 @@
 # 0x06. C - More pointers, arrays and strings
+<p>In this project, I learned about what and how to use pointers to pointers and multidimensional arrays in C as well as the most common C standard library functions to manipulate strings.</p>
 
 ### Learning Objectives
-<p>At the end of this project, you are expected to be able to explain to anyone, without the help of Google:</p>
+<p>At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/?fbclid=IwAR2K5_BGPVo0QjJXkOIIqNsqcXK4lTskPWJvA0asKQIGtCPWaQBdKmj1Ztg), without the help of Google:</p>
 
 ### General
 + What are pointers and how to use them
