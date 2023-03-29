@@ -47,8 +47,13 @@
 		- src does not need to be null-terminated if it contains n or more bytes
 	+ Return a pointer to the resulting string dest
 		- FYI: The standard library provides a similar function: strncat. Run man strncat to learn more.
-+ Task 2: [strncpy](): A function that copies a string.
++ Task 2: [strncpy](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings): A function that copies a string.
 
 	+ Prototype: char strncpy(char *dest, char *src, int n);
 	+ Your function should work exactly like strncpy
 		- FYI: The standard library provides a similar function: strncpy. Run man strncpy to learn more.
++ Task 3: [strcmp](): A function that compares two strings.
+
+	+ Prototype: int strcmp(char *s1, char *s2);
+	+ Your function should work exactly like strcmp
+		- FYI: The standard library provides a similar function: strcmp. Run man strcmp to learn more.
