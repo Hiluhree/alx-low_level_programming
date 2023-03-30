@@ -116,7 +116,7 @@
 	+ You can assume that there will be only digits in the strings n1 and n2
 	+ n1 and n2 will never be empty
 	+ If the result can not be stored in r the function must return 0
-+ Task 12: [ Noise is a buffer, more effective than cubicles or booth walls](): A function that prints a buffer.
++ Task 12: [ Noise is a buffer, more effective than cubicles or booth walls](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/104-print_buffer.c): A function that prints a buffer.
 
 	+ Prototype: void print_buffer(char *b, int size*);
 	+ The function must print the content of size bytes of the buffer pointed by b
