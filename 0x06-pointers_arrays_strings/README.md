@@ -105,7 +105,7 @@
 	+ Do not remove anything from the initial code (not even the comments)
 	+ and don’t change anything but the line of code you are adding (don’t change the spaces to tabs!)
 	+ You are allowed to use the standard library
-+ Task 11: [It is the addition of strangeness to beauty that constitutes the romantic character in art](): A function that adds two numbers.
++ Task 11: [It is the addition of strangeness to beauty that constitutes the romantic character in art](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/103-infinite_add.c): A function that adds two numbers.
 
 	+ Prototype: char *infinite_add(char *n1, char *n2, char *r, int size_r);
 	+ Where n1 and n2 are the two numbers
