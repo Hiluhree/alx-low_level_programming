@@ -10,8 +10,7 @@
  */
 void print_buffer(char *b, int size)
 {
-	int byte;
-	int i;
+	int buffer_byte, i;
 
 	for (buffer_byte = 0; buffer_byte < size; buffer_byte += 10)
 	{
