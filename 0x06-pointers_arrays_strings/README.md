@@ -87,10 +87,21 @@
 	+ You can only use two loops in your code
 	+ You are not allowed to use switch
 	+ You are not allowed to use any ternary operation
-+ Task 9: [Numbers have life; they're not just symbols on paper](): A function that prints an integer.
++ Task 9: [Numbers have life; they're not just symbols on paper](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/101-print_number.c): A function that prints an integer.
 
 	+ Prototype: void print_number(int n);
 	+ You can only use putchar function to print
 	+ You are not allowed to use long
 	+ You are not allowed to use arrays or pointers
 	+ You are not allowed to hard-code special values
++ Task 10: [A dream doesn't become reality through magic; it takes sweat, determination and hard work](): Add one line to [this code](https://github.com/holbertonschool/make_magic_happen/blob/master/magic.c), so that the program prints a[2] = 98, followed by a new line.
+
+	+ You are not allowed to use the variable a in your new line of code
+	+ You are not allowed to modify the variable p
+	+ You can only write one statement
+	+ You are not allowed to use ,
+	+ You are not allowed to code anything else than the line of expected line of code at the expected line
+	+ Your code should be written at line 19, before the ;
+	+ Do not remove anything from the initial code (not even the comments)
+	+ and don’t change anything but the line of code you are adding (don’t change the spaces to tabs!)
+	+ You are allowed to use the standard library
