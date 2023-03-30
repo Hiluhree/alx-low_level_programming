@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * main - function to peint 98
+ * Return: Always 0
+ */
 int main(void)
 {
 	int n;
