@@ -80,10 +80,17 @@
 	+ You can only use two loops in your code
 	+ You are not allowed to use switch
 	+ You are not allowed to use any ternary operation
-+ Task 8: [rot13](): A function that encodes a string using rot13.
++ Task 8: [rot13](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/100-rot13.c): A function that encodes a string using [rot13](https://en.wikipedia.org/wiki/ROT13).
 
 	+ Prototype: char *rot13(char *);
 	+ You can only use if statement once in your code
 	+ You can only use two loops in your code
 	+ You are not allowed to use switch
 	+ You are not allowed to use any ternary operation
++ Task 9: [Numbers have life; they're not just symbols on paper](): A function that prints an integer.
+
+	+ Prototype: void print_number(int n);
+	+ You can only use putchar function to print
+	+ You are not allowed to use long
+	+ You are not allowed to use arrays or pointers
+	+ You are not allowed to hard-code special values
