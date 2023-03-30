@@ -94,7 +94,7 @@
 	+ You are not allowed to use long
 	+ You are not allowed to use arrays or pointers
 	+ You are not allowed to hard-code special values
-+ Task 10: [A dream doesn't become reality through magic; it takes sweat, determination and hard work](): Add one line to [this code](https://github.com/holbertonschool/make_magic_happen/blob/master/magic.c), so that the program prints a[2] = 98, followed by a new line.
++ Task 10: [A dream doesn't become reality through miagic; it takes sweat, determination and hard work](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/102-magic.c): Add one line to [this code](https://github.com/holbertonschool/make_magic_happen/blob/master/magic.c), so that the program prints a[2] = 98, followed by a new line.
 
 	+ You are not allowed to use the variable a in your new line of code
 	+ You are not allowed to modify the variable p
@@ -105,3 +105,14 @@
 	+ Do not remove anything from the initial code (not even the comments)
 	+ and don’t change anything but the line of code you are adding (don’t change the spaces to tabs!)
 	+ You are allowed to use the standard library
++ Task 11: [It is the addition of strangeness to beauty that constitutes the romantic character in art](): A function that adds two numbers.
+
+	+ Prototype: char *infinite_add(char *n1, char *n2, char *r, int size_r);
+	+ Where n1 and n2 are the two numbers
+	+ r is the buffer that the function will use to store the result
+	+ size_r is the buffer size
+	+ The function returns a pointer to the result
+	+ You can assume that you will always get positive numbers, or 0
+	+ You can assume that there will be only digits in the strings n1 and n2
+	+ n1 and n2 will never be empty
+	+ If the result can not be stored in r the function must return 0
