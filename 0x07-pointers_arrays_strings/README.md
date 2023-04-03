@@ -30,9 +30,15 @@
 	+ Prototype: unsigned int strspn(char *s, char *accept);
 	+ Returns the number of bytes in the initial segment of s which consist only of bytes from accept
 		- FYI: The standard library provides a similar function: strspn. Run man strspn to learn more.
-+ Task 4: [strpbrk](): A  function that searches a string for any of a set of bytes.
++ Task 4: [strpbrk](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/4-strpbrk.c): A function that searches a string for any of a set of bytes.
 
 	+ Prototype: char strpbrk(char *s, char *accept);
 	+ The strpbrk() function locates the first occurrence in the string s of any of the bytes in the string accept
 	+ Returns a pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found
 		- FYI: The standard library provides a similar function: strpbrk. Run man strpbrk to learn more.
++ Task 5: [strstr](): A function that locates a substring.
+
+	+ Prototype: char strstr(char *haystack, char *needle);
+	+ The strstr() function finds the first occurrence of the substring needle in the string haystack. The terminating null bytes (\0) are not compared
+	+ Returns a pointer to the beginning of the located substring, or NULL if the substring is not found.
+		- FYI: The standard library provides a similar function: strstr. Run man strstr to learn more.
