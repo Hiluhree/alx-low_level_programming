@@ -20,13 +20,19 @@
 	+ The memcpy() function copies n bytes from memory area src to memory area dest
 	+ Returns a pointer to dest
 		- FYI: The standard library provides a similar function: memcpy. Run man memcpy to learn more.
-+ Task 2: [strchr](): A function that locates a character in a string.
++ Task 2: [strchr](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/2-strchr.c): A function that locates a character in a string.
 
 	+ Prototype: char *_strchr(char *s, char c);
 	+ Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found
 		- FYI: The standard library provides a similar function: strchr. Run man strchr to learn more.
-+ Task 3: [strspn](): A  function that gets the length of a prefix substring.
++ Task 3: [strspn](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/3-strspn.c): A  function that gets the length of a prefix substring.
 
 	+ Prototype: unsigned int strspn(char *s, char *accept);
 	+ Returns the number of bytes in the initial segment of s which consist only of bytes from accept
 		- FYI: The standard library provides a similar function: strspn. Run man strspn to learn more.
++ Task 4: [strpbrk](): A  function that searches a string for any of a set of bytes.
+
+	+ Prototype: char strpbrk(char *s, char *accept);
+	+ The strpbrk() function locates the first occurrence in the string s of any of the bytes in the string accept
+	+ Returns a pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found
+		- FYI: The standard library provides a similar function: strpbrk. Run man strpbrk to learn more.
