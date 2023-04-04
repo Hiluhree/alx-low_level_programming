@@ -54,7 +54,7 @@
 + Task 8: [Double pointer, double fun](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/100-set_string.c): A function that sets the value of a pointer to a char.
 
 	+ Prototype: void set string(char s, char to);
-+ Task 9: [My primary goal of hacking was the intellectual curiosity, the seduction of adventure](): A  file that contains the password for the crackme2 executable.
++ Task 9: [My primary goal of hacking was the intellectual curiosity, the seduction of adventure](): A  file that contains the password for the [crackme2](https://github.com/holbertonschool/0x06.c) executable.
 
 	+Your file should contain the exact password, no new line, no extra space
 	+ ltrace, ldd, gdb and objdump can help
