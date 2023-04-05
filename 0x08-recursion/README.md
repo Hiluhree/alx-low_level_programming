@@ -29,8 +29,10 @@
 	+ Prototype: int _pow_recursion(int x, int y);
 	+ If y is lower than 0, the function should return -1
 		- FYI: The standard library provides a different function: pow. Run man pow to learn more.
-+ Task 5: [Your subconscious is looking for the dreamer](): A function that returns the natural square root of a number.
++ Task 5: [Your subconscious is looking for the dreamer](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x08-recursion/5-sqrt_recursion.c): A function that returns the natural square root of a number.
 
 	+ Prototype: int _sqrt_recursion(int n);
 	+ If n does not have a natural square root, the function should return -1
 		- FYI: The standard library provides a different function: sqrt. Run man sqrt to learn more.
++ Task 6: [Inception. Is it possible?](): A function that returns 1 if the input integer is a prime number, otherwise return 0.
+	+ Prototype: int is_prime_number(int n);
