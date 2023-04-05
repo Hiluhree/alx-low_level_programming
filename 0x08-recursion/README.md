@@ -36,7 +36,12 @@
 		- FYI: The standard library provides a different function: sqrt. Run man sqrt to learn more.
 + Task 6: [Inception. Is it possible?](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x08-recursion/6-is_prime_number.c): A function that returns 1 if the input integer is a prime number, otherwise return 0.
 	+ Prototype: int is_prime_number(int n);
-+ Task 7: [They say we only use a fraction of our brain's true potential. Now that's when we're awake. When we're asleep, we can do almost anything](): A function that returns 1 if a string is a palindrome and 0 if not.
++ Task 7: [They say we only use a fraction of our brain's true potential. Now that's when we're awake. When we're asleep, we can do almost anything](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x08-recursion/100-is_palindrome.c): A function that returns 1 if a string is a palindrome and 0 if not.
 
 	+ Prototype: int is_palindrome(char s);
 	+ An empty string is a palindrome
++ Task 8: [ Inception. Now, before you bother telling me it's impossible...](): A function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0.
+
+	+ Prototype: int wildcmp(char *s1, char *s2);
+	+ s2 can contain the special character *.
+	+ The special char * can replace any string (including an empty string)
