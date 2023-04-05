@@ -24,8 +24,13 @@
 	+ Prototype: int factorial(int n);
 	+ If n is lower than 0, the function should return -1 to indicate an error
 	+ Factorial of 0 is 1
-+ Task 4: [Once an idea has taken hold of the brain it's almost impossible to eradicate](): A function that returns the value of x raised to the power of y.
++ Task 4: [Once an idea has taken hold of the brain it's almost impossible to eradicate](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x08-recursion/4-pow_recursion.c): A function that returns the value of x raised to the power of y.
 
 	+ Prototype: int _pow_recursion(int x, int y);
 	+ If y is lower than 0, the function should return -1
-	+ FYI: The standard library provides a different function: pow. Run man pow to learn more.
+		- FYI: The standard library provides a different function: pow. Run man pow to learn more.
++ Task 5: [Your subconscious is looking for the dreamer](): A function that returns the natural square root of a number.
+
+	+ Prototype: int _sqrt_recursion(int n);
+	+ If n does not have a natural square root, the function should return -1
+		- FYI: The standard library provides a different function: sqrt. Run man sqrt to learn more.
