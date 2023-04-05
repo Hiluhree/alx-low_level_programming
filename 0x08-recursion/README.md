@@ -19,8 +19,13 @@
 
 	+ Prototype: int strlen_recursion(char s);
 		- FYI: The standard library provides a similar function: strlen. Run man strlen to learn more. 
-+ Task 3: [You mustn't be afraid to dream a little bigger, darling](): A function that returns the factorial of a given number.
++ Task 3: [You mustn't be afraid to dream a little bigger, darling](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x08-recursion/3-factorial.c): A function that returns the factorial of a given number.
 
 	+ Prototype: int factorial(int n);
 	+ If n is lower than 0, the function should return -1 to indicate an error
 	+ Factorial of 0 is 1
++ Task 4: [Once an idea has taken hold of the brain it's almost impossible to eradicate](): A function that returns the value of x raised to the power of y.
+
+	+ Prototype: int _pow_recursion(int x, int y);
+	+ If y is lower than 0, the function should return -1
+	+ FYI: The standard library provides a different function: pow. Run man pow to learn more.
