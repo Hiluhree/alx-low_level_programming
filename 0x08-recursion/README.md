@@ -8,7 +8,14 @@
 + [C Programming Tutorial 86, Recursion pt.2](https://www.youtube.com/watch?v=7XiIS6HobNs)
 
 ## Tasks
-+ Task 0: [She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget](): A function that prints a string, followed by a new line.
++ Task 0: [She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x08-recursion/0-puts_recursion.c): A function that prints a string, followed by a new line.
 
-	+ Prototype: void _puts_recursion(char *s);
+	+ Prototype: void puts_recursion(char s);
 		- FYI: The standard library provides a similar function: puts. Run man puts to learn more.
++ Task 1: [Why is it so important to dream? Because, in my dreams we are together](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x08-recursion/1-print_rev_recursion.c): A function that prints a string in reverse.
+
+	+ Prototype: void print_rev_recursion(char s);
++ Task 2: [Dreams feel real while we're in them. It's only when we wake up that we realize something was actually strange](): A  function that returns the length of a string.
+
+	+ Prototype: int strlen_recursion(char s);
+		- FYI: The standard library provides a similar function: strlen. Run man strlen to learn more. 
