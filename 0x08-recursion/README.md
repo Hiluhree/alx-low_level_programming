@@ -15,7 +15,12 @@
 + Task 1: [Why is it so important to dream? Because, in my dreams we are together](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x08-recursion/1-print_rev_recursion.c): A function that prints a string in reverse.
 
 	+ Prototype: void print_rev_recursion(char s);
-+ Task 2: [Dreams feel real while we're in them. It's only when we wake up that we realize something was actually strange](): A  function that returns the length of a string.
++ Task 2: [Dreams feel real while we're in them. It's only when we wake up that we realize something was actually strange](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x08-recursion/2-strlen_recursion.c): A  function that returns the length of a string.
 
 	+ Prototype: int strlen_recursion(char s);
 		- FYI: The standard library provides a similar function: strlen. Run man strlen to learn more. 
++ Task 3: [You mustn't be afraid to dream a little bigger, darling](): A function that returns the factorial of a given number.
+
+	+ Prototype: int factorial(int n);
+	+ If n is lower than 0, the function should return -1 to indicate an error
+	+ Factorial of 0 is 1
