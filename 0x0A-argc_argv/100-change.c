@@ -44,10 +44,13 @@ int main(int argc, char *argv[])
 			coins2++;
 		}
 		else
+		{
 			cents -= 1;
 			coins1++;
+		}
 	}
 	total_coins = coins25 + coins10 + coins5 + coins2 + coins1;
 	printf("%d\n", total_coins);
+
 	return (0);
 }
