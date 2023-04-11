@@ -14,7 +14,12 @@
 + Task 1: [Silence is argument carried out by other means](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x0A-argc_argv/1-args.c): A program that prints the number of arguments passed into it.
 
 	+ Your program should print a number, followed by a new line
-+ Task 2: [The best argument against democracy is a five-minute conversation with the average voter](): A program that prints all arguments it receives.
++ Task 2: [The best argument against democracy is a five-minute conversation with the average voter](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x0A-argc_argv/2-args.c): A program that prints all arguments it receives.
 
 	+ All arguments should be printed, including the first one
 	+ Only print one argument per line, ending with a new line
++ Task 3: [Neither irony nor sarcasm is argument](): A program that multiplies two numbers.
+
+	+ Your program should print the result of the multiplication, followed by a new line
+	+ You can assume that the two numbers and result of the multiplication can be stored in an integer
+	+ If the program does not receive two arguments, your program should print Error, followed by a new line, and return 1
