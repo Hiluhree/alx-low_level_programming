@@ -11,12 +11,8 @@
  */
 int main(int argc, char *argv[])
 {
-	int cents, total_coins = 0;
-	int coins25 = 0;
-	int coins10 = 0;
-	int coins5 = 0;
-	int coins2 = 0;
-	int coins1 = 0;
+	int cents, total_coins = 0,
+	    coins25 = 0, coins10 = 0, coins5 = 0, coins2 = 0, coins1 = 0;
 
 	if (argc != 2)
 	{
@@ -48,15 +44,10 @@ int main(int argc, char *argv[])
 			coins2++;
 		}
 		else
-		{
 			cents -= 1;
 			coins1++;
-		}
 	}
-	total_coins = coins25 + coins10
-			+ coins5 + coins2
-			+ coins1;
+	total_coins = coins25 + coins10 + coins5 + coins2 + coins1;
 	printf("%d\n", total_coins);
-
 	return (0);
 }
