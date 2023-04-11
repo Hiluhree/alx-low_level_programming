@@ -7,7 +7,7 @@
  * @argv: The pointer to the arguments
  * Return: Always 0
  */
-int main(int argc, char __attribute__((__unused__)) *argv[])
+int main(int argc, char __attribute__((unused)) *argv[])
 {
 	printf("%d\n", argc - 1);
 
