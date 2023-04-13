@@ -31,11 +31,20 @@
 	+ If width or height is 0 or negative, return NULL
 + Task 4: [ It's not bragging if you can back it up](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x0B-malloc_free/4-free_grid.c): A function that frees a 2 dimensional grid previously created by your alloc_grid function.
 
-	+ Prototype: void free_grid(int **grid, int height);
-	+ Note that we will compile with your alloc grid.c file. Make sure it compiles.
-+ Task 5: [It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe](): A function that concatenates all the arguments of your program.
+	+ Prototype: void free_grid(int grid, int height);
+	+ Note that we will compile with your alloc_grid.c file. Make sure it compiles.
++ Task 5: [It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x0B-malloc_free/100-argstostr.c): A function that concatenates all the arguments of your program.
 
-	+ Prototype: char *argstostr(int ac, char **av);
+	+ Prototype: char argstostr(int ac, char av);
 	+ Returns NULL if ac == 0 or av == NULL
 	+ Returns a pointer to a new string, or NULL if it fails
 	+ Each argument should be followed by a \n in the new string
++ Task 6: [I will show you how great I am](): A function that splits a string into words.
+
+	+ Prototype: char **strtow(char *str);
+	+ The function returns a pointer to an array of strings (words)
+	+ Each element of this array should contain a single word, null-terminated
+	+ The last element of the returned array should be NULL
+	+ Words are separated by spaces
+	+ Returns NULL if str == NULL or str == ""
+	+ If your function fails, it should return NULL
