@@ -14,10 +14,18 @@
 	+ Prototype: void malloc_checked(unsigned int b);
 	+ Returns a pointer to the allocated memory
 	+ if malloc fails, the malloc_checked function should cause normal process termination with a status value of 98
-+ Task 1: [string_nconcat](): A function that concatenates two strings.
++ Task 1: [string_nconcat](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x0C-more_malloc_free/1-string_nconcat.c): A function that concatenates two strings.
 
 	+ Prototype: char string_nconcat(char *s1, char *s2, unsigned int n);
 	+ The returned pointer shall point to a newly allocated space in memory, which contains s1, followed by the first n bytes of s2, and null terminated
 	+ If the function fails, it should return NULL
 	+ If n is greater or equal to the length of s2 then use the entire string s2
 	+ if NULL is passed, treat it as an empty string
++ Task 2: [calloc](): A function that allocates memory for an array, using malloc.
+
+	+ Prototype: void calloc(unsigned int nmemb, unsigned int size);
+	+ The calloc function allocates memory for an array of nmemb elements of size bytes each and returns a pointer to the allocated memory.
+	+ The memory is set to zero
+	+ If nmemb or size is 0, then _calloc returns NULL
+	+ If malloc fails, then _calloc returns NULL
+		- FYI: The standard library provides a different function: calloc. Run man calloc to learn more.
