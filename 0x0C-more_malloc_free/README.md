@@ -36,7 +36,7 @@
 	+ Return: the pointer to the newly created array
 	+ If min > max, return NULL
 	+ If malloc fails, return NULL
-+ Task 4: [realloc](): A  function that reallocates a memory block using malloc and free
++ Task 4: [realloc](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x0C-more_malloc_free/100-realloc.c): A  function that reallocates a memory block using malloc and free
 
 	+ Prototype: void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 	+ where ptr is a pointer to the memory previously allocated with a call to malloc: malloc(old_size)
@@ -49,3 +49,12 @@
 	+ If new_size is equal to zero, and ptr is not NULL, then the call is equivalent to free(ptr). Return NULL
 	+ Don’t forget to free ptr when it makes sense
 		- FYI: The standard library provides a different function: realloc. Run man realloc to learn more.
++ Task 5: [We must accept finite disappointment, but never lose infinite hope](): A program that multiplies two positive numbers.
+
+	+ Usage: mul num1 num2
+	+ num1 and num2 will be passed in base 10
+	+ Print the result, followed by a new line
+	+ If the number of arguments is incorrect, print Error, followed by a new line, and exit with a status of 98
+	+ num1 and num2 should only be composed of digits. If not, print Error, followed by a new line, and exit with a status of 98
+	+ You are allowed to use more than 5 functions in your file
+		- You can use bc (man bc) to check your results.
