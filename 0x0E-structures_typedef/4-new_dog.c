@@ -7,7 +7,7 @@
  * Return: returns the lenght of the string
  */
 int _strlen(char *s)
-{i
+{
 	int l = 0;
 
 	while (*s++)
