@@ -7,11 +7,12 @@
  * Return: returns the lenght of the string
  */
 int _strlen(char *s)
-{
-        int l = 0;
-        while (*s++)
-                l++;
-        return (l);
+{i
+	int l = 0;
+
+	while (*s++)
+		l++;
+	return (l);
 }
 
 /**
@@ -23,13 +24,13 @@ int _strlen(char *s)
  */
 char *_strcpy(char *dest, char *src)
 {
-        int i = 0;
+	int i = 0;
 
-        for (i = 0; src[i]; i++)
-                dest[i] = src[i];
-        dest[i] = '\0';
+	for (i = 0; src[i]; i++)
+		dest[i] = src[i];
+	dest[i] = '\0';
 
-        return (dest);
+	return (dest);
 }
 /**
  * new_dog - a function that creates a new dog.
