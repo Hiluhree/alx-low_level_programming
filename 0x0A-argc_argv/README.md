@@ -29,7 +29,7 @@
 	+ If no number is passed to the program, print 0, followed by a new line
 	+ If one of the number contains symbols that are not digits, print Error, followed by a new line, and return 1
 	+ You can assume that numbers and the addition of all the numbers can be stored in an int
-+ Task 5: [ Minimal Number of Coins for Change](): A program that prints the minimum number of coins to make change for an amount of money.
++ Task 5: [Minimal Number of Coins for Change](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x0A-argc_argv/100-change.c): A program that prints the minimum number of coins to make change for an amount of money.
 
 	+ Usage: ./change cents
 	+ where cents is the amount of cents you need to give back
