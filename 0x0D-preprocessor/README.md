@@ -17,3 +17,4 @@
 
 	+ You are allowed to use the standard library
 + Task 3: [Function-like macro](): Writing a function-like macro ABS(x) that computes the absolute value of a number x.
++ Task 4: [SUM](): A function-like macro SUM(x, y) that computes the sum of the numbers x and y.
