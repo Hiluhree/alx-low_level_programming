@@ -49,7 +49,7 @@
 	+ If new_size is equal to zero, and ptr is not NULL, then the call is equivalent to free(ptr). Return NULL
 	+ Don’t forget to free ptr when it makes sense
 		- FYI: The standard library provides a different function: realloc. Run man realloc to learn more.
-+ Task 5: [We must accept finite disappointment, but never lose infinite hope](): A program that multiplies two positive numbers.
++ Task 5: [We must accept finite disappointment, but never lose infinite hope](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x0C-more_malloc_free/101-mul.c): A program that multiplies two positive numbers.
 
 	+ Usage: mul num1 num2
 	+ num1 and num2 will be passed in base 10
