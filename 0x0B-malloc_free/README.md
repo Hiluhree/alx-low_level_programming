@@ -39,7 +39,7 @@
 	+ Returns NULL if ac == 0 or av == NULL
 	+ Returns a pointer to a new string, or NULL if it fails
 	+ Each argument should be followed by a \n in the new string
-+ Task 6: [I will show you how great I am](): A function that splits a string into words.
++ Task 6: [I will show you how great I am](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x0B-malloc_free/101-strtow.c): A function that splits a string into words.
 
 	+ Prototype: char **strtow(char *str);
 	+ The function returns a pointer to an array of strings (words)
