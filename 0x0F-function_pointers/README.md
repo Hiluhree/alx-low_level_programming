@@ -8,6 +8,11 @@
 + [Everything you need to know about pointers in C](https://boredzo.org/pointers/)
 
 ### Tasks
-+ Task 0: [What's my name](): A function that prints a name.
++ Task 0: [What's my name](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x0F-function_pointers/0-print_name.c): A function that prints a name.
 
-	+ Prototype: void print_name(char *name, void (*f)(char *));
+	+ Prototype: void print_name(char *name, void (*f)(char ));
++ Task 1: [If you spend too much time thinking about a thing, you'll never get it done](): A function that executes a function given as a parameter on each element of an array.
+
+	+ Prototype: void array_iterator(int *array, size_t size, void (*action)(int));
+	+ where size is the size of the array
+	+ and action is a pointer to the function you need to use
