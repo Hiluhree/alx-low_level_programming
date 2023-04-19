@@ -10,14 +10,14 @@
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	if (array == NULL || size == NULL)
+	if (array == NULL || action == NULL)
 	{
 		return;
 	}
 
-	while (size < 0)
+	while (size-- > 0)
 	{
-		action(array);
+		action(*array);
 		array++;
 	}
 }
