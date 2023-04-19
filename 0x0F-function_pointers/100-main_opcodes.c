@@ -2,20 +2,6 @@
 #include <stdlib.h>
 
 /**
- * printOpcodes - print the opcodes of the program
- * @numBytes: number of bytes to print
- */
-void printOpcodes(int numBytes)
-{
-	unsigned char* ptr = *(unsigned char **) &printOpcodes;
-
-	for (int i = 0; i < numBytes; i++)
-	{
-		printf("%02x ", ptr[i]);
-	}
-	printf("\n");
-}
-/**
  * main - funtion that prints its own opcodes
  * @argc: number of arguments
  * @argv: array of the arguments
@@ -24,7 +10,8 @@ void printOpcodes(int numBytes)
 int main(int argc, char *argv[])
 {
 	int num_bytes, i;
-	char *array;
+	int (*address)(int, char **) = main;
+	unsigned char array;
 
 	if (argc != 2)
 	{
@@ -40,16 +27,18 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	array = (char *)main;
-
 	for (i = 0; i < num_bytes; i++)
 	{
+		array = *(unsigned char *)address;
+		printf("%.2x", array);
 		if (i == num_bytes - 1)
 		{
-			printf("%02hhx\n", array[i]);
-			break;
+			continue;
 		}
-		printf("%02hhx ", array[i]);
+		printf(" ");
+		address++;
 	}
+
+	printf("\n");
 	return (0);
 }
