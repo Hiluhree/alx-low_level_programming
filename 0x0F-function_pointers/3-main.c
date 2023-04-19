@@ -1,5 +1,5 @@
 #include "3-calc.h"
-#include <stdio.h>
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -8,7 +8,7 @@
  * @argv: An array of pointers to the arguments
  * Return: returns a 0
  */
-int main(int __attribute__(unused) argc, ahcr *argv[])
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	int a, b;
 	char *op;
@@ -16,13 +16,13 @@ int main(int __attribute__(unused) argc, ahcr *argv[])
 	if (argc != 4)
 	{
 		printf("Error\n");
-		exit(98)
+		exit(98);
 	}
 
 	a = atoi(argv[1]);
 
-	op = =argv[2];
-	b= atoi(argv[3]);
+	op = argv[2];
+	b = atoi(argv[3]);
 
 	if (get_op_func(op) == NULL || op[1] != '\0')
 	{
