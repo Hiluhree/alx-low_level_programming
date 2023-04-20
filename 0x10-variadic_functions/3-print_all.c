@@ -14,7 +14,6 @@ void print_all(const char * const format, ...)
 
 	va_start(args, format);
 	while (format && format[i] != '\0')
-	{
 		switch (format[i])
 		{ case 'c':
 			switch (start)
@@ -46,7 +45,6 @@ void print_all(const char * const format, ...)
 			break;
 		}
 		i++;
-	}
 	printf("\n");
 	va_end(args);
 }
