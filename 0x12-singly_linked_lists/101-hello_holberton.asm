@@ -1,5 +1,6 @@
 section .data
-    message db 'Hello, Holberton', 10, 0
+    message db 'Hello, Holberton', 0
+    fmt: db "%s", 10, 0
 
 section .text
     global main
@@ -7,16 +8,13 @@ section .text
 
 main:
     push rbp
-    mov rbp, rsp
 
-    ; format string for printf
-    mov rdi, message
-
-    ; call printf function
-    xor eax, eax    ; set return value to 0
+    mov rdi,message
+    mov rsi,fmt
+    mov rax,0
     call printf
 
-    ; restore stack pointer and return
-    mov rsp, rbp
     pop rbp
+   
+    mov rax,0
     ret
