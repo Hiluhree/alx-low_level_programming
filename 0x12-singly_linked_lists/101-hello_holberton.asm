@@ -1,23 +1,21 @@
-section .data
-    message db 'Hello, Holberton', 10, 0
+extern printf
 
 section .text
-    global main
-    extern printf
+   global main
 
 main:
-    push rbp
-    mov rbp, rsp
+   push rbp
 
-    ; format string for printf
-    mov rdi, message
+   mov rdi,fmt
+   mov rsi,msg
+   mov rax,0
+   call printf
 
+   pop rbp
 
-    ; call printf function
-    xor eax, eax    ;  set return value to 0
-    call printf
+   mov rax,0
+   ret
 
-    ; restore stack pointer and return
-    mov rsp, rbp
-    pop rbp
-    ret
+section .data
+   msg: db "Hello, Holberton", 0
+   fmt: db "%s", 10, 0
