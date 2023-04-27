@@ -17,9 +17,15 @@
 + Task 1: [List length](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x12-singly_linked_lists/1-list_len.c): A function that returns the number of elements in a linked list_t list.
 
 	+ Prototype: size_t list_len(const list_t \*h);
-+ Task 2: [Add node](): A function that adds a new node at the beginning of a list_t list.
++ Task 2: [Add node](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x12-singly_linked_lists/2-add_node.c): A function that adds a new node at the beginning of a list_t list.
 
 	+ Prototype: list_t \*add_node(list_t \*\*head, const char \*str);
+	+ Return: the address of the new element, or NULL if it failed
+	+ str needs to be duplicated
+	+ You are allowed to use strdup
++ Task 3: [Add node at the end](): A function that adds a new node at the end of a list_t list.
+
+	+ Prototype: list_t \*add_node_end(list_t \*\*head, const char \*str);
 	+ Return: the address of the new element, or NULL if it failed
 	+ str needs to be duplicated
 	+ You are allowed to use strdup
