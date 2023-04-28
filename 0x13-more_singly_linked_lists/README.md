@@ -45,8 +45,15 @@
 	+ where idx is the index of the list where the new node should be added. Index starts at 0
 	+ Returns: the address of the new node, or NULL if it failed
 	+ if it is not possible to add the new node at index idx, do not add the new node and return NULL
-+ Task 10: [Delete at index](): A function that deletes the node at index index of a listint_t linked list.
++ Task 10: [Delete at index](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/10-delete_nodeint.c): A function that deletes the node at index index of a listint_t linked list.
 
 	+ Prototype: int delete_nodeint_at_index(listint_t \*\*head, unsigned int index);
 	+ where index is the index of the node that should be deleted. Index starts at 0
 	+ Returns: 1 if it succeeded, -1 if it failed
++ Task 11: [Reverse list](): A function that reverses a listint_t linked list.
+
+	+ Prototype: listint_t \*reverse_listint(listint_t \*\*head);
+	+ Returns: a pointer to the first node of the reversed list
+	+ You are not allowed to use more than 1 loop.
+	+ You are not allowed to use malloc, free or arrays
+	+ You can only declare a maximum of two variables in your function
