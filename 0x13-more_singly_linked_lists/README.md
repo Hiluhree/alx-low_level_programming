@@ -50,10 +50,25 @@
 	+ Prototype: int delete_nodeint_at_index(listint_t \*\*head, unsigned int index);
 	+ where index is the index of the node that should be deleted. Index starts at 0
 	+ Returns: 1 if it succeeded, -1 if it failed
-+ Task 11: [Reverse list](): A function that reverses a listint_t linked list.
++ Task 11: [Reverse list](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/100-reverse_listint.c): A function that reverses a listint_t linked list.
 
 	+ Prototype: listint_t \*reverse_listint(listint_t \*\*head);
 	+ Returns: a pointer to the first node of the reversed list
 	+ You are not allowed to use more than 1 loop.
 	+ You are not allowed to use malloc, free or arrays
 	+ You can only declare a maximum of two variables in your function
++ Task 12: [Print (safe version)](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/101-print_listint_safe.c): A function that prints a listint_t linked list.
+
+	+ Prototype: size_t print_listint_safe(const listint_t \*head);
+	+ Returns: the number of nodes in the list
+	+ This function can print lists with a loop
+	+ You should go through the list only once
+	+ If the function fails, exit the program with status 98
+	+ Output format: see example
++ Task 13: [Free (safe version)](): A function that frees a listint_t list.
+
+	+ Prototype: size_t free_listint_safe(listint_t \*\*h);
+	+ This function can free lists with a loop
+	+ You should go though the list only once
+	+ Returns: the size of the list that was free’d
+	+ The function sets the head to NULL
