@@ -26,7 +26,27 @@
 
 	+ Prototype: void free_listint2(listint_t \*\*head);
 	+ The function sets the head to NULL
-+ Task 6: [Pop](): A function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).
++ Task 6: [Pop](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/6-pop_listint.c): A function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).
 
 	+ Prototype: int pop_listint(listint_t \*\*head);
 	+ if the linked list is empty return 0
++ Task 7: [Get node at index](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/7-get_nodeint.c): A function that returns the nth node of a listint_t linked list.
+
+	+ Prototype: listint_t \*get_nodeint_at_index(listint_t \*head, unsigned int index);
+	+ where index is the index of the node, starting at 0
+	+ if the node does not exist, return NULL
++ Task 8: [Sum list](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/8-sum_listint.c): A function that returns the sum of all the data (n) of a listint_t linked list.
+
+	+ Prototype: int sum_listint(listint_t \*head);
+	+ if the list is empty, return 0
++ Task 9: [Insert](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/9-insert_nodeint.c): A function that inserts a new node at a given position.
+
+	+ Prototype: listint_t \*insert_nodeint_at_index(listint_t \*\*head, unsigned int idx, int n);
+	+ where idx is the index of the list where the new node should be added. Index starts at 0
+	+ Returns: the address of the new node, or NULL if it failed
+	+ if it is not possible to add the new node at index idx, do not add the new node and return NULL
++ Task 10: [Delete at index](): A function that deletes the node at index index of a listint_t linked list.
+
+	+ Prototype: int delete_nodeint_at_index(listint_t \*\*head, unsigned int index);
+	+ where index is the index of the node that should be deleted. Index starts at 0
+	+ Returns: 1 if it succeeded, -1 if it failed
