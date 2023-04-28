@@ -18,5 +18,6 @@
 [0x0D. C - Preprocessor](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x0D-preprocessor)</br>
 [0x0E. C - Structures, typedef](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x0E-structures_typedef)</br>
 [0x0F. C - Function pointers](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x0F-function_pointers)</br>
-[0x10. C - Variadic functions]()</br>
-[0x12. C - Singly linked lists]()</br>
+[0x10. C - Variadic functions](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x10-variadic_functions)</br>
+[0x12. C - Singly linked lists](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x12-singly_linked_lists)</br>
+[0x13. C - More singly linked lists]()</br>
