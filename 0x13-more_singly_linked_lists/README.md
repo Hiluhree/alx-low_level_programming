@@ -65,10 +65,16 @@
 	+ You should go through the list only once
 	+ If the function fails, exit the program with status 98
 	+ Output format: see example
-+ Task 13: [Free (safe version)](): A function that frees a listint_t list.
++ Task 13: [Free (safe version)](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/102-free_listint_safe.c): A function that frees a listint_t list.
 
 	+ Prototype: size_t free_listint_safe(listint_t \*\*h);
 	+ This function can free lists with a loop
 	+ You should go though the list only once
 	+ Returns: the size of the list that was free’d
 	+ The function sets the head to NULL
++ Task 14: [Find the loop](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/103-find_loop.c): A function that finds the loop in a linked list.
+
+	+ Prototype: listint_t \*find_listint_loop(listint_t \*head);
+	+ Returns: The address of the node where the loop starts, or NULL if there is no loop
+	+ You are not allowed to use malloc, free or arrays
+	+ You can only declare a maximum of two variables in your function
