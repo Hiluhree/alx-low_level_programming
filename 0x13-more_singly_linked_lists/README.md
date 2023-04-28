@@ -19,6 +19,14 @@
 
 	+ Prototype: listint_t \*add_nodeint_end(listint_t \*\*head, const int n);
 	+ Return: the address of the new element, or NULL if it failed
-+ Task 4: [Free list](): A function that frees a listint_t list.
++ Task 4: [Free list](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/4-free_listint.c): A function that frees a listint_t list.
 
 	+ Prototype: void free_listint(listint_t \*head);
++ Task 5: [Free](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/5-free_listint2.c): A function that frees a listint_t list.
+
+	+ Prototype: void free_listint2(listint_t \*\*head);
+	+ The function sets the head to NULL
++ Task 6: [Pop](): A function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).
+
+	+ Prototype: int pop_listint(listint_t \*\*head);
+	+ if the linked list is empty return 0
