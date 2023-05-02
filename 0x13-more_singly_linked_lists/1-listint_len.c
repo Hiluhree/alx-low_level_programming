@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * listsint_len - a function that returns the number of elements
+ * listint_len - a function that returns the number of elements
  * in a linked listint_t list
  * @h: A pointer to the head of the list
  * Return: returnns the number of elements in the list
