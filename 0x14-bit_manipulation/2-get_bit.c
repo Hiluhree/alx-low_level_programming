@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <limits.h>
 /**
  * get_bit - a function that returns the value of a bit at a given index
  * @n: the bit
@@ -9,13 +9,13 @@
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	if (index >= (sizeof(unsigned long int) * 8))
+	unsigned long int mask = 1UL << index;
+
+	if (index >= sizeof(unsigned long int) * CHAR_BIT)
 	{
 		return (-1);
 	}
 
-	if ((n & (1 << index)) == 0)
-		return (0);
 
-	return (0);
+	return ((n & mask) ? 1 : 0);
 }
