@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+char *create_buffer(char *file);
+void error_exit(int fd);
+
 /**
  * create_buffer - Allocates 1024 bytes for a buffer.
  * @file: The name of the file buffer is storing chars for.
@@ -25,10 +28,10 @@ char *create_buffer(char *file)
 }
 
 /**
- * close_file - Closes file descriptors.
+ * error_exit - Closes file descriptors.
  * @fd: The file descriptor to be closed.
  */
-void close_file(int fd)
+void error_exit(int fd)
 {
 	int c;
 
@@ -55,7 +58,7 @@ void close_file(int fd)
  */
 int main(int argc, char *argv[])
 {
-	int from, to, r, w;
+	int fd_from, fd_to, bytes_read, bytes_write;
 	char *buffer;
 
 	if (argc != 3)
@@ -65,12 +68,12 @@ int main(int argc, char *argv[])
 	}
 
 	buffer = create_buffer(argv[2]);
-	from = open(argv[1], O_RDONLY);
-	r = read(from, buffer, 1024);
-	to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
+	fd_from = open(argv[1], O_RDONLY);
+	bytes_read = read(from, buffer, 1024);
+	fd_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
 	do {
-		if (from == -1 || r == -1)
+		if (fd_from == -1 || bytes_read == -1)
 		{
 			dprintf(STDERR_FILENO,
 				"Error: Can't read from file %s\n", argv[1]);
@@ -78,8 +81,8 @@ int main(int argc, char *argv[])
 			exit(98);
 		}
 
-		w = write(to, buffer, r);
-		if (to == -1 || w == -1)
+		bytes_write = write(to, buffer, bytes_read);
+		if (fd_to == -1 || bytes_write == -1)
 		{
 			dprintf(STDERR_FILENO,
 				"Error: Can't write to %s\n", argv[2]);
@@ -87,14 +90,14 @@ int main(int argc, char *argv[])
 			exit(99);
 		}
 
-		r = read(from, buffer, 1024);
-		to = open(argv[2], O_WRONLY | O_APPEND);
+		bytes_read = read(fd_from, buffer, 1024);
+		fd_to = open(argv[2], O_WRONLY | O_APPEND);
 
-	} while (r > 0);
+	} while (bytes_read > 0);
 
 	free(buffer);
-	close_file(from);
-	close_file(to);
+	close_file(fd_from);
+	close_file(fd_to);
 
 	return (0);
 }
