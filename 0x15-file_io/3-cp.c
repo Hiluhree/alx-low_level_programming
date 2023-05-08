@@ -69,7 +69,7 @@ int main(int argc, char *argv[])
 
 	buffer = create_buffer(argv[2]);
 	fd_from = open(argv[1], O_RDONLY);
-	bytes_read = read(from, buffer, 1024);
+	bytes_read = read(fd_from, buffer, 1024);
 	fd_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
 	do {
@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
 			exit(98);
 		}
 
-		bytes_write = write(to, buffer, bytes_read);
+		bytes_write = write(fd_to, buffer, bytes_read);
 		if (fd_to == -1 || bytes_write == -1)
 		{
 			dprintf(STDERR_FILENO,
@@ -96,8 +96,8 @@ int main(int argc, char *argv[])
 	} while (bytes_read > 0);
 
 	free(buffer);
-	close_file(fd_from);
-	close_file(fd_to);
+	error_exit(fd_from);
+	error_exit(fd_to);
 
 	return (0);
 }
