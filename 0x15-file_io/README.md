@@ -36,7 +36,7 @@
 	+ Do not create the file if it does not exist
 	+ If ``filename`` is ``NULL`` return ``-1``
 	+ If ``text_content`` is ``NULL``, do not add anything to the file. Return ``1`` if the file exists and ``-1`` if the file does not exist or if you do not have the required permissions to write the file
-+ Task 3: [cp](): A program that copies the content of a file to another file.
++ Task 3: [cp](https://github.com/Hiluhree/alx-low_level_programming/blob/master/0x15-file_io/3-cp.c): A program that copies the content of a file to another file.
 
 	+ Usage: ``cp file_from file_to``
 	+ if the number of argument is not the correct one, exit with code ``97`` and print ``Usage: cp file_from file_to``, followed by a new line, on the ``POSIX`` standard error
@@ -50,3 +50,22 @@
 	+ Permissions of the created file: ``rw-rw-r--``. If the file already exists, do not change the permissions
 	+ You must read ``1,024`` bytes at a time from the ``file_from`` to make less system calls. Use a buffer
 	+ You are allowed to use ``dprintf``
++ Task 5: [elf](): A program that displays the information contained in the ELF header at the start of an ELF file.
+
+	+ Usage: ``elf_header elf_filename``
+	+ Displayed information: (no less, no more, do not include trailing whitespace)
+		- Magic
+		- Class
+		- Data
+		- Version
+		- OS/ABI
+		- ABI Version
+		- Type
+		- Entry point address
+	+ Format: the same as ``readelf -h`` (version ``2.26.1``)
+	+ If the file is not an ``ELF`` file, or on error, exit with status code ``98`` and display a comprehensive error message to ``stderr``
+	+ You are allowed to use ``lseek`` once
+	+ You are allowed to use ``read`` a maximum of 2 times at runtime
+	+ You are allowed to have as many functions as you want in your source file
+	+ You are allowed to use ``printf``
+man elf, readelf
