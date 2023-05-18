@@ -19,7 +19,9 @@
 [0x0E. C - Structures, typedef](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x0E-structures_typedef)</br>
 [0x0F. C - Function pointers](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x0F-function_pointers)</br>
 [0x10. C - Variadic functions](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x10-variadic_functions)</br>
+[0x11. C - printf](https://github.com/Hiluhree/printf/tree/56c46da95ff6b3f8910dab9bb2bcc2311f74c8c7)</br>
 [0x12. C - Singly linked lists](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x12-singly_linked_lists)</br>
 [0x13. C - More singly linked lists](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists)</br>
 [0x14. C - Bit manipulation](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x14-bit_manipulation)</br>
-[0x15. C - File I/O]()</br>
+[0x15. C - File I/O](https://github.com/Hiluhree/alx-low_level_programming/tree/master/0x15-file_io)</br>
+[0x16. C - Simple Shell](https://github.com/Hiluhree/simple_shell/tree/55f133ea9b2a6439df3a8891356c5a1452aeb56a)</br>
